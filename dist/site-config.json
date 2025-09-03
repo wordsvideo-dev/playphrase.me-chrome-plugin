@@ -1,0 +1,20 @@
+{
+	"subtitleExtractors": [
+		{
+			"name": "karaoke-page",
+			"match": "*://*/*",
+			"selectors": [
+				".karaoke-page-content"
+			]
+		}
+	],
+	"networkExtractors": [
+		{
+			"name": "playphrase-phrases",
+			"match": "*://www.playphrase.me/api/v1/phrases/search*",
+			"type": "json",
+			"parser": "playphrasePhrasesV1"
+		}
+	]
+}
+

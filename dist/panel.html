@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>视频列表</title>
+	<link rel="stylesheet" href="panel.css">
+</head>
+<body>
+	<div class="page-meta">
+		<div class="page-title" id="pageTitle">标题加载中...</div>
+		<a class="page-url" id="pageUrl" href="#" target="_blank" rel="noreferrer noopener">URL 加载中...</a>
+	</div>
+	<main class="main-container">
+		<section class="materials-section">
+			<h2 class="section-title" data-i18n="materialsSection">待选素材</h2>
+			<div id="materialsList" class="list"></div>
+		</section>
+		<div class="splitter" id="splitter" data-i18n-title="dragToResize" title="拖拽调整上下区域大小"></div>
+		<section class="editor-section">
+			<header class="editor-header">
+				<div class="editor-title" data-i18n="videoEditPreview">视频编辑预览</div>
+				<div class="editor-controls">
+					<div class="resolution-controls">
+						<span class="control-label" data-i18n="resolution">分辨率:</span>
+						<select id="resolutionSelect" class="resolution-select" data-i18n-title="resolution" title="选择视频分辨率比例">
+							<option value="16:9" selected>16:9</option>
+							<option value="9:16">9:16</option>
+							<option value="4:3">4:3</option>
+							<option value="3:4">3:4</option>
+						</select>
+					</div>
+					<div class="font-controls">
+						<span class="control-label" data-i18n="fontSize">字号:</span>
+						<button id="fontSizeDown" class="font-btn" data-i18n-title="decreaseFontSize" title="减小字号">A-</button>
+						<span id="fontSizeDisplay" class="font-size-display">12px</span>
+						<button id="fontSizeUp" class="font-btn" data-i18n-title="increaseFontSize" title="增大字号">A+</button>
+					</div>
+					<div class="editor-actions">
+						<button id="playBtn" data-i18n="play" data-i18n-title="playTimelineTooltip" title="按时间线顺序播放/暂停">播放</button>
+						<button id="composeBtn" data-i18n="exportMP4" data-i18n-title="exportMP4Tooltip" title="将素材片段合成为MP4视频">导出 MP4</button>
+						<button id="exportSegmentsBtn" data-i18n="exportZIP" data-i18n-title="exportZIPTooltip" title="将所有独立视频素材打包为ZIP压缩包导出">导出 ZIP</button>
+					</div>
+				</div>
+			</header>
+			<div class="preview-editor">
+				<div class="preview-container">
+					<canvas id="editorCanvas" class="editor-canvas"></canvas>
+					<video id="sourceVideo" class="source-video" muted playsinline style="display: none;"></video>
+					<div id="subtitleOverlay" class="subtitle-overlay">
+						<div class="subtitle-text"></div>
+						<div class="subtitle-controls">
+							<div class="resize-handle resize-n"></div>
+							<div class="resize-handle resize-s"></div>
+							<div class="resize-handle resize-e"></div>
+							<div class="resize-handle resize-w"></div>
+							<div class="resize-handle resize-nw"></div>
+							<div class="resize-handle resize-ne"></div>
+							<div class="resize-handle resize-sw"></div>
+							<div class="resize-handle resize-se"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="timeline" id="timeline">
+				<!-- Top area: Scale row -->
+				<div class="timeline-top-area">
+					<div class="timeline-scale-row">
+						<div class="scale-title-placeholder"></div>
+						<div class="timeline-scale" id="timelineScale"></div>
+					</div>
+				</div>
+				<!-- Bottom area: Content rows -->
+				<div class="timeline-content-area">
+					<div class="playhead" id="playhead"><div class="playhead-head"></div></div>
+					<div class="track-row">
+						<div class="track-title-area">
+							<div class="track-label" data-i18n="videoTrack">视频</div>
+						</div>
+						<div class="track-content-area">
+							<div class="track-content" id="trackVideo"></div>
+						</div>
+					</div>
+					<div class="track-row">
+						<div class="track-title-area">
+							<div class="track-label" data-i18n="subtitleTrack">字幕</div>
+						</div>
+						<div class="track-content-area">
+							<div class="track-content" id="trackSubtitle"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="i18n.js"></script>
+	<script src="panel.js"></script>
+</body>
+</html>

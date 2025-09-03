@@ -1,0 +1,140 @@
+{
+  "extensionName": {
+    "message": "words.video | 単語学習動画作成 | playphrase.me"
+  },
+  "extensionDescription": {
+    "message": "ウェブページのコンテンツから単語学習動画を作成。動画クリップを抽出して教育教材を生成します。"
+  },
+  "openSidePanel": {
+    "message": "サイドパネルを開く"
+  },
+  "materialsSection": {
+    "message": "素材選択"
+  },
+  "videoEditPreview": {
+    "message": "動画編集プレビュー"
+  },
+  "resolution": {
+    "message": "解像度:"
+  },
+  "fontSize": {
+    "message": "フォントサイズ:"
+  },
+  "decreaseFontSize": {
+    "message": "フォントサイズを小さく"
+  },
+  "increaseFontSize": {
+    "message": "フォントサイズを大きく"
+  },
+  "play": {
+    "message": "再生"
+  },
+  "pause": {
+    "message": "一時停止"
+  },
+  "playTimelineTooltip": {
+    "message": "タイムライン順序で再生/一時停止"
+  },
+  "exportMP4": {
+    "message": "MP4エクスポート"
+  },
+  "exportMP4Tooltip": {
+    "message": "素材クリップをMP4動画に合成"
+  },
+  "exportZIP": {
+    "message": "ZIPエクスポート"
+  },
+  "exportZIPTooltip": {
+    "message": "すべての個別動画素材をZIPアーカイブにパッケージ"
+  },
+  "openVideo": {
+    "message": "動画を開く"
+  },
+  "freezeSubtitle": {
+    "message": "字幕固定"
+  },
+  "addComposition": {
+    "message": "タイムラインに追加"
+  },
+  "resolution_label": {
+    "message": "解像度:"
+  },
+  "duration_label": {
+    "message": "時間:"
+  },
+  "subtitle_label": {
+    "message": "字幕:"
+  },
+  "unknownResolution": {
+    "message": "不明な解像度"
+  },
+  "unknownDuration": {
+    "message": "不明な時間"
+  },
+  "noSubtitle": {
+    "message": "字幕なし"
+  },
+  "frozenSubtitleTooltip": {
+    "message": "既に固定済み、字幕は更新されません"
+  },
+  "freezeSubtitleTooltip": {
+    "message": "現在の字幕内容を固定し、以後自動更新しません"
+  },
+  "preparingExport": {
+    "message": "エクスポート準備中..."
+  },
+  "exportingProgress": {
+    "message": "エクスポート中... {progress}%"
+  },
+  "packingProgress": {
+    "message": "パッキング中... {current}/{total}"
+  },
+  "generatingZIP": {
+    "message": "ZIP生成中..."
+  },
+  "exportComplete": {
+    "message": "動画エクスポートが完了しました！ファイルが自動的にダウンロードされました。"
+  },
+  "exportSegmentsComplete": {
+    "message": "{count}個の動画クリップを{filename}にエクスポートしました"
+  },
+  "exportFailed": {
+    "message": "エクスポートに失敗しました: {error}"
+  },
+  "addClipsFirst": {
+    "message": "まずタイムラインに動画クリップを追加してください"
+  },
+  "webCodecsNotSupported": {
+    "message": "お使いのブラウザはWebCodecs APIをサポートしておらず、動画をエクスポートできません。Chrome 94+またはその他のサポートされているブラウザを使用してください。"
+  },
+  "confirmExport": {
+    "message": "動画をエクスポートしますか？"
+  },
+  "exportDetails": {
+    "message": "クリップ数: {clips}\\nタイムライン時間: {duration}秒\\nエクスポート時間: {exportDuration}秒 ({frames}フレーム)\\n解像度: {aspectRatio}{codecInfo}{resolutionInfo}{frameRateInfo}{audioInfo}\\n\\nエクスポートには数分かかる場合があります。ページを閉じないでください。"
+  },
+  "audioIncluded": {
+    "message": "\\nオーディオ: 元動画の音声を含む (48kHz, 192kbps, ステータス: {status})"
+  },
+  "audioSuspended": {
+    "message": "\\n注意: オーディオコンテキストが一時停止中、エクスポート時に自動的に有効化されます"
+  },
+  "audioFailed": {
+    "message": "\\nオーディオ: 作成に失敗 - {error}"
+  },
+  "audioNotSupported": {
+    "message": "\\nオーディオ: サポートされていません（動画のみ）"
+  },
+  "dragToResize": {
+    "message": "ドラッグして上下のセクションサイズを調整"
+  },
+  "videoTrack": {
+    "message": "動画"
+  },
+  "subtitleTrack": {
+    "message": "字幕"
+  },
+  "noClipsProcessed": {
+    "message": "動画クリップの処理に成功しませんでした"
+  }
+}

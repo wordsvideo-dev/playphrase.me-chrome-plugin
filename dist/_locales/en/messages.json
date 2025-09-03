@@ -1,0 +1,140 @@
+{
+  "extensionName": {
+    "message": "words.video | make words to video | playphrase.me"
+  },
+  "extensionDescription": {
+    "message": "Create word learning videos from webpage content. Extract video clips and generate educational materials."
+  },
+  "openSidePanel": {
+    "message": "Open Side Panel"
+  },
+  "materialsSection": {
+    "message": "Material Selection"
+  },
+  "videoEditPreview": {
+    "message": "Video Edit Preview"
+  },
+  "resolution": {
+    "message": "Resolution:"
+  },
+  "fontSize": {
+    "message": "Font Size:"
+  },
+  "decreaseFontSize": {
+    "message": "Decrease font size"
+  },
+  "increaseFontSize": {
+    "message": "Increase font size"
+  },
+  "play": {
+    "message": "Play"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "playTimelineTooltip": {
+    "message": "Play/pause timeline sequence"
+  },
+  "exportMP4": {
+    "message": "Export MP4"
+  },
+  "exportMP4Tooltip": {
+    "message": "Compose material clips into MP4 video"
+  },
+  "exportZIP": {
+    "message": "Export ZIP"
+  },
+  "exportZIPTooltip": {
+    "message": "Package all individual video materials into ZIP archive"
+  },
+  "openVideo": {
+    "message": "Open Video"
+  },
+  "freezeSubtitle": {
+    "message": "Freeze Subtitle"
+  },
+  "addComposition": {
+    "message": "Add to Timeline"
+  },
+  "resolution_label": {
+    "message": "Resolution:"
+  },
+  "duration_label": {
+    "message": "Duration:"
+  },
+  "subtitle_label": {
+    "message": "Subtitle:"
+  },
+  "unknownResolution": {
+    "message": "Unknown resolution"
+  },
+  "unknownDuration": {
+    "message": "Unknown duration"
+  },
+  "noSubtitle": {
+    "message": "No subtitle"
+  },
+  "frozenSubtitleTooltip": {
+    "message": "Already frozen, subtitles will no longer update"
+  },
+  "freezeSubtitleTooltip": {
+    "message": "Freeze current subtitle content, no automatic updates afterwards"
+  },
+  "preparingExport": {
+    "message": "Preparing export..."
+  },
+  "exportingProgress": {
+    "message": "Exporting... {progress}%"
+  },
+  "packingProgress": {
+    "message": "Packing... {current}/{total}"
+  },
+  "generatingZIP": {
+    "message": "Generating ZIP..."
+  },
+  "exportComplete": {
+    "message": "Video export completed! File downloaded automatically."
+  },
+  "exportSegmentsComplete": {
+    "message": "Successfully exported {count} video clips to {filename}"
+  },
+  "exportFailed": {
+    "message": "Export failed: {error}"
+  },
+  "addClipsFirst": {
+    "message": "Please add video clips to timeline first"
+  },
+  "webCodecsNotSupported": {
+    "message": "Your browser does not support WebCodecs API and cannot export video. Please use Chrome 94+ or other supported browsers."
+  },
+  "confirmExport": {
+    "message": "Confirm video export?"
+  },
+  "exportDetails": {
+    "message": "Clips: {clips}\\nTimeline duration: {duration}s\\nExport duration: {exportDuration}s ({frames} frames)\\nResolution: {aspectRatio}{codecInfo}{resolutionInfo}{frameRateInfo}{audioInfo}\\n\\nExport may take several minutes, please do not close the page."
+  },
+  "audioIncluded": {
+    "message": "\\nAudio: Includes original video audio (48kHz, 192kbps, status: {status})"
+  },
+  "audioSuspended": {
+    "message": "\\nNote: Audio context suspended, will auto-activate during export"
+  },
+  "audioFailed": {
+    "message": "\\nAudio: Creation failed - {error}"
+  },
+  "audioNotSupported": {
+    "message": "\\nAudio: Not supported (video only)"
+  },
+  "dragToResize": {
+    "message": "Drag to resize upper and lower sections"
+  },
+  "videoTrack": {
+    "message": "Video"
+  },
+  "subtitleTrack": {
+    "message": "Subtitle"
+  },
+  "noClipsProcessed": {
+    "message": "No video clips were successfully processed"
+  }
+}

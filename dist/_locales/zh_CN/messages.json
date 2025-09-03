@@ -1,0 +1,140 @@
+{
+  "extensionName": {
+    "message": "words.video | 制作单词学习视频 | playphrase.me"
+  },
+  "extensionDescription": {
+    "message": "从网页内容制作单词学习视频。提取视频片段并生成教育材料。"
+  },
+  "openSidePanel": {
+    "message": "打开侧边面板"
+  },
+  "materialsSection": {
+    "message": "待选素材"
+  },
+  "videoEditPreview": {
+    "message": "视频编辑预览"
+  },
+  "resolution": {
+    "message": "分辨率:"
+  },
+  "fontSize": {
+    "message": "字号:"
+  },
+  "decreaseFontSize": {
+    "message": "减小字号"
+  },
+  "increaseFontSize": {
+    "message": "增大字号"
+  },
+  "play": {
+    "message": "播放"
+  },
+  "pause": {
+    "message": "暂停"
+  },
+  "playTimelineTooltip": {
+    "message": "按时间线顺序播放/暂停"
+  },
+  "exportMP4": {
+    "message": "导出 MP4"
+  },
+  "exportMP4Tooltip": {
+    "message": "将素材片段合成为MP4视频"
+  },
+  "exportZIP": {
+    "message": "导出 ZIP"
+  },
+  "exportZIPTooltip": {
+    "message": "将所有独立视频素材打包为ZIP压缩包导出"
+  },
+  "openVideo": {
+    "message": "打开视频"
+  },
+  "freezeSubtitle": {
+    "message": "固化字幕"
+  },
+  "addComposition": {
+    "message": "添加合成"
+  },
+  "resolution_label": {
+    "message": "分辨率:"
+  },
+  "duration_label": {
+    "message": "时长:"
+  },
+  "subtitle_label": {
+    "message": "字幕:"
+  },
+  "unknownResolution": {
+    "message": "未知分辨率"
+  },
+  "unknownDuration": {
+    "message": "未知时长"
+  },
+  "noSubtitle": {
+    "message": "无字幕"
+  },
+  "frozenSubtitleTooltip": {
+    "message": "已固化，字幕不再更新"
+  },
+  "freezeSubtitleTooltip": {
+    "message": "固化当前字幕内容，之后不再自动更新"
+  },
+  "preparingExport": {
+    "message": "准备导出..."
+  },
+  "exportingProgress": {
+    "message": "导出中... {progress}%"
+  },
+  "packingProgress": {
+    "message": "打包中... {current}/{total}"
+  },
+  "generatingZIP": {
+    "message": "生成ZIP..."
+  },
+  "exportComplete": {
+    "message": "视频导出完成！文件已自动下载。"
+  },
+  "exportSegmentsComplete": {
+    "message": "成功导出 {count} 个视频片段至 {filename}"
+  },
+  "exportFailed": {
+    "message": "导出失败: {error}"
+  },
+  "addClipsFirst": {
+    "message": "请先添加视频片段到时间线"
+  },
+  "webCodecsNotSupported": {
+    "message": "您的浏览器不支持 WebCodecs API，无法导出视频。请使用 Chrome 94+ 或其他支持的浏览器。"
+  },
+  "confirmExport": {
+    "message": "确定要导出视频吗？"
+  },
+  "exportDetails": {
+    "message": "片段数量: {clips}\\n时间线时长: {duration}秒\\n导出时长: {exportDuration}秒 ({frames}帧)\\n分辨率: {aspectRatio}{codecInfo}{resolutionInfo}{frameRateInfo}{audioInfo}\\n\\n导出可能需要几分钟时间，期间请不要关闭页面。"
+  },
+  "audioIncluded": {
+    "message": "\\n音频: 包含原视频音轨 (48kHz, 192kbps, 状态: {status})"
+  },
+  "audioSuspended": {
+    "message": "\\n注意: 音频上下文已暂停，导出时会自动激活"
+  },
+  "audioFailed": {
+    "message": "\\n音频: 创建失败 - {error}"
+  },
+  "audioNotSupported": {
+    "message": "\\n音频: 不支持 (仅视频)"
+  },
+  "dragToResize": {
+    "message": "拖拽调整上下区域大小"
+  },
+  "videoTrack": {
+    "message": "视频"
+  },
+  "subtitleTrack": {
+    "message": "字幕"
+  },
+  "noClipsProcessed": {
+    "message": "没有成功处理任何视频片段"
+  }
+}

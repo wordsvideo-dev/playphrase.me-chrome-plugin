@@ -1,0 +1,140 @@
+{
+  "extensionName": {
+    "message": "words.video | 製作單詞學習影片 | playphrase.me"
+  },
+  "extensionDescription": {
+    "message": "從網頁內容製作單詞學習影片。擷取影片片段並生成教育材料。"
+  },
+  "openSidePanel": {
+    "message": "開啟側邊面板"
+  },
+  "materialsSection": {
+    "message": "待選素材"
+  },
+  "videoEditPreview": {
+    "message": "影片編輯預覽"
+  },
+  "resolution": {
+    "message": "解析度:"
+  },
+  "fontSize": {
+    "message": "字號:"
+  },
+  "decreaseFontSize": {
+    "message": "減小字號"
+  },
+  "increaseFontSize": {
+    "message": "增大字號"
+  },
+  "play": {
+    "message": "播放"
+  },
+  "pause": {
+    "message": "暫停"
+  },
+  "playTimelineTooltip": {
+    "message": "按時間線順序播放/暫停"
+  },
+  "exportMP4": {
+    "message": "匯出 MP4"
+  },
+  "exportMP4Tooltip": {
+    "message": "將素材片段合成為MP4影片"
+  },
+  "exportZIP": {
+    "message": "匯出 ZIP"
+  },
+  "exportZIPTooltip": {
+    "message": "將所有獨立影片素材打包為ZIP壓縮包匯出"
+  },
+  "openVideo": {
+    "message": "開啟影片"
+  },
+  "freezeSubtitle": {
+    "message": "固化字幕"
+  },
+  "addComposition": {
+    "message": "加入合成"
+  },
+  "resolution_label": {
+    "message": "解析度:"
+  },
+  "duration_label": {
+    "message": "時長:"
+  },
+  "subtitle_label": {
+    "message": "字幕:"
+  },
+  "unknownResolution": {
+    "message": "未知解析度"
+  },
+  "unknownDuration": {
+    "message": "未知時長"
+  },
+  "noSubtitle": {
+    "message": "無字幕"
+  },
+  "frozenSubtitleTooltip": {
+    "message": "已固化，字幕不再更新"
+  },
+  "freezeSubtitleTooltip": {
+    "message": "固化當前字幕內容，之後不再自動更新"
+  },
+  "preparingExport": {
+    "message": "準備匯出..."
+  },
+  "exportingProgress": {
+    "message": "匯出中... {progress}%"
+  },
+  "packingProgress": {
+    "message": "打包中... {current}/{total}"
+  },
+  "generatingZIP": {
+    "message": "生成ZIP..."
+  },
+  "exportComplete": {
+    "message": "影片匯出完成！檔案已自動下載。"
+  },
+  "exportSegmentsComplete": {
+    "message": "成功匯出 {count} 個影片片段至 {filename}"
+  },
+  "exportFailed": {
+    "message": "匯出失敗: {error}"
+  },
+  "addClipsFirst": {
+    "message": "請先新增影片片段到時間線"
+  },
+  "webCodecsNotSupported": {
+    "message": "您的瀏覽器不支援 WebCodecs API，無法匯出影片。請使用 Chrome 94+ 或其他支援的瀏覽器。"
+  },
+  "confirmExport": {
+    "message": "確定要匯出影片嗎？"
+  },
+  "exportDetails": {
+    "message": "片段數量: {clips}\\n時間線時長: {duration}秒\\n匯出時長: {exportDuration}秒 ({frames}幀)\\n解析度: {aspectRatio}{codecInfo}{resolutionInfo}{frameRateInfo}{audioInfo}\\n\\n匯出可能需要幾分鐘時間，期間請不要關閉頁面。"
+  },
+  "audioIncluded": {
+    "message": "\\n音訊: 包含原影片音軌 (48kHz, 192kbps, 狀態: {status})"
+  },
+  "audioSuspended": {
+    "message": "\\n注意: 音訊上下文已暫停，匯出時會自動啟用"
+  },
+  "audioFailed": {
+    "message": "\\n音訊: 建立失敗 - {error}"
+  },
+  "audioNotSupported": {
+    "message": "\\n音訊: 不支援 (僅影片)"
+  },
+  "dragToResize": {
+    "message": "拖拽調整上下區域大小"
+  },
+  "videoTrack": {
+    "message": "影片"
+  },
+  "subtitleTrack": {
+    "message": "字幕"
+  },
+  "noClipsProcessed": {
+    "message": "沒有成功處理任何影片片段"
+  }
+}

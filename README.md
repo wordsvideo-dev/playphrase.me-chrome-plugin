@@ -1,13 +1,20 @@
 
 
+free helper for concat multi short videos to one video with subtitles
+
+thanks for playphrase.me!
+
+---   
 
 
 zip:   
 
+---   
 
 dist:
 
 
+---   
 
 images:
 
